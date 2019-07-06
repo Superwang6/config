@@ -1,6 +1,6 @@
 <build>
 		<plugins>
-			<!--Ìø¹ı²âÊÔÀà´ò°ü -->
+			<!--è·³è¿‡æµ‹è¯•æ‰“åŒ…ç±»-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
