@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 
+	namespace一般指定为当前文件的所在包路径+文件名（将来是接口名）
+	在程序中通过[ namespace + id ]定位到执行哪一条SQL语句
+ -->
+<mapper namespace="">
+	
+	
+</mapper>

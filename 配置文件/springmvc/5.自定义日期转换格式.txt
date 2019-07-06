@@ -1,0 +1,7 @@
+/* 自定义日期转换格式 */
+	@InitBinder
+	public void InitBinder (ServletRequestDataBinder binder){
+		binder.registerCustomEditor(java.util.Date.class, 
+			new CustomDateEditor(new SimpleDateFormat("yyyy-MM-dd"), true)
+		);
+	}

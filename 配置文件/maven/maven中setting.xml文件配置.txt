@@ -1,0 +1,22 @@
+≈‰÷√∞¢¿Ô‘∆æµœÒ≤÷ø‚£∫
+<mirror> 
+    <id>nexus-aliyun</id>  
+    <name>Nexus aliyun</name>  
+    <mirrorOf>central</mirrorOf>
+    <url>http://maven.aliyun.com/nexus/content/groups/public/</url> 
+</mirror>
+
+
+≈‰÷√jdk1.8
+<profile>
+	<id>development</id>
+	<activation>
+		<jdk>1.8</jdk>
+		<activeByDefault>true</activeByDefault>
+	</activation>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+	</properties>
+</profile>
